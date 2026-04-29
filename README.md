@@ -11,11 +11,11 @@ Este projeto foi desenvolvido para a disciplina de Análise e Desenvolvimento de
 ### Passo a Passo
 1.  **Clonar o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    git clone [https://github.com/jpolivbraga/ArqSoft.git](https://github.com/jpolivbraga/ArqSoft.git)
     ```
 2.  **Aceder à pasta do projeto:**
     ```bash
-    cd seu-repositorio
+    cd ArqSoft.git
     ```
 3.  **Compilar o código:**
     ```bash
