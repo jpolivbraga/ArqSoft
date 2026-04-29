@@ -1,3 +1,7 @@
-public class SituacaoEmprestimo {
+package biblioteca.dominio;
 
+public enum SituacaoEmprestimo {
+    ATIVO, 
+    DEVOLVIDO, 
+    ATRASADO
 }

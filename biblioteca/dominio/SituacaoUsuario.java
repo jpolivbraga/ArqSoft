@@ -1,3 +1,6 @@
-public class SituacaoUsuario {
+package biblioteca.dominio;
 
+public enum SituacaoUsuario {
+    ATIVO, 
+    SUSPENSO
 }
