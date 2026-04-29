@@ -1,3 +1,36 @@
-public class Livro {
+package biblioteca.dominio;
 
+public class Livro {
+    private Long id;
+    private String titulo;
+    private String autor;
+    private String isbn;
+    private int quantidadeDisponivel;
+
+    public Livro(Long id, String titulo, String autor, String isbn, int quantidadeDisponivel) {
+        this.id = id;
+        this.titulo = titulo;
+        this.autor = autor;
+        this.isbn = isbn;
+        this.quantidadeDisponivel = quantidadeDisponivel;
+    }
+
+    public boolean realizarEmprestimo() {
+        if (quantidadeDisponivel > 0) {
+            quantidadeDisponivel--;
+            return true;
+        }
+        return false;
+    }
+
+    public void devolver() {
+        this.quantidadeDisponivel++;
+    }
+
+    // Getters
+    public Long getId() { return id; }
+    public String getTitulo() { return titulo; }
+    public int getQuantidadeDisponivel() { return quantidadeDisponivel; }
+    public String getAutor() { return autor; }
+    public String getIsbn() { return isbn; }
 }
